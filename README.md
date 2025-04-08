@@ -4,12 +4,13 @@ A simple Python app to convert between currencies using static rates. Includes t
 
 ## How to run
 ```bash
-python converter.py
+cd currency_converter
+python converter.py --amount 200 --from EUR --to USD
 ```
 
 ## Run tests
 ```bash
-pytest
+PYTHONPATH=$(pwd) pytest
 ```
 
 ## GitHub CI
